@@ -30,9 +30,13 @@ int main() {
   	cout << d << endl;
 
     // เขียนโปรแกรมเพื่อหาค่า a = b * a + 20 * (20 - 15) / 10
-
+    a = b * a + 20 * (20 - 15) / 10;
 
     // เขียนแสดงผลค่า a
-
+    cout << "a, b, c and d is " << endl;
+  	cout << a << endl;
+  	cout << b << endl;
+  	cout << c << endl;
+  	cout << d << endl;
   return 0;
 }
